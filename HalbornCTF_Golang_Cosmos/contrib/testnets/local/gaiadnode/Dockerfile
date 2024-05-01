@@ -7,7 +7,7 @@
 # Changed from Alpine to Ubuntu because the keyring PR is linking to libc
 # Alpine uses muslc instead of libc
 
-FROM ubuntu:18.04
+FROM ubuntu:mantic-20240416
 
 RUN apt-get update && \
     apt-get -y upgrade && \
